@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tittle>Tienda Gaming</tittle>
+    <tittle>Caninos y Felinos</tittle>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
     </head>
@@ -13,14 +13,14 @@
             <div class="row" id="Titulo">
                     <div class="col-7"
                         <header>
-                            <h2>Video juegos </h2>
-                            <h1> y</h1>
-                            <h3>mucho mas</h3>
+                            <h2>CENTRO VETERINARIO </h2>
+                            <h1>Caninos y</h1>
+                            <h3>Felinos</h3>
 
                         </header>
                     </div>
                     <div class="col-5"
-                        <img src="img/gamer1.jpg" alt="gamer"  id="imggamer">
+                        <img src="img/canino.jpg" alt="catdog"  id="imgCatdog">
                     </div>
                     <div class="col-12" id="barraMenu"
                         <nav class="navbar navbar-expand-lg navbar-light">
@@ -33,11 +33,11 @@
                                 <button class="navbar-toggler" type="button" id="botonMenu" data
                                 </button>
                                 <div class="vl"></div>
-                                <a class="navbar-brand menu-opc" id="botonMenu">Descuentos</a>
+                                <a class="navbar-brand menu-opc" id="botonMenu">Guarderia</a>
                                 <button class="navbar-toggler" type="button" id="botonMenu" data
                                 </button>
                                 <div class="vl"></div>
-                                <a class="navbar-toggler" type="button" id="botonMenu">Juegos</a>
+                                <a class="navbar-toggler" type="button" id="botonMenu">Promociones</a>
                                 <button class="navbar-toggler" type="button" id="botonMenu" data
                                 </button>
 
@@ -49,12 +49,12 @@
                     <div class="row col-7" id="contenido">
                         <section>
                             <article>
-                                <h4>Cuidados para su pc</h4>
-                                <p><img src="gamer1.jpg" alt="Cliente." id="imggamer1">
-                                    Tener una pc gamer requiere de unos buenos cuidados.
-                                    pues sus componentes se pueden arruinar,
-                                    aqui puedes aprender como mantenerla siempre funcional
-                                    y sin ningun tipo de incovenientes 100% gratis.
+                                <h4>Cuidados y educación para su perro</h4>
+                                <p><img src="img/felino2.jpg" alt="catdog" id="imgFoto">
+                                    Tener a un perro implica una gran responsabilidad.
+                                    A demás de facilitarle las cosas básicas como son la comida,
+                                    el veterinario o hacer ejercicio, hay otros consejos que son
+                                    para que tu mascota esté feliz y con una salud de hierro.
                                 </p>
                             </article>
                         </section>
@@ -62,15 +62,17 @@
                     
                         <section>
                             <article>
-                                <h4>Compra video juegos</h4>
-                                <p><img src="img/gamer2.jpg" alt="Jugador" id="imggamer2">
-                                    ¡A que esperas!
-                                    En esta tienda gamer puedes
-                                    aprobechar los mejores descuetos
-                                    para asi tener tus video juegos favoritos
-                                    y al mejor precio.
-                                    ¡No esperes mas!
-
+                                <h4>Salir de viaje con tu mascota</h4>
+                                <p><img src="img/foto2.jpg" alt="catdog" id="imgFoto">
+                                    ¡Olvídate de dejar a tu perro o gato en casa!
+                                    Ya sea en carro o en avión,
+                                    es necesario tener un medio de
+                                    transporte agradable y seguro
+                                    para el animalito.
+                                    Debe ser un guacal con suficiente
+                                    ventilización y que le permita darse
+                                    vuelta y acomodarse en diferentes posiciones.
+                                    Esto para evitar malestares o mareos.
                                 </p>
                             </article>
                         </section>
@@ -79,22 +81,28 @@
                     <form id="form" method="post" action="pagina-destino.php">
                     
                         <div class="row" id="formTitulo"
-                            <h1>Solicitar un asesor, regalanos tus datos</h1><br>
+                            <h1>Solicitar cita medica</h1><br>
                         </div>
                     
-                        <label>Nombre</label>
+                        <label>Mascota</label>
                         <input type="text" id="name" name="nombre" requiered="" placeholder="Nombre" />
                         
                         <label for="numtarjeta">Edad</label>
-                        <input id="numtarjeta" name="numtarjeta" type="number" placeholder="Edad" required>
+                        <input id="numtarjeta" name="numtarjeta" type="number" placeholder="en meses" required>
 
-                        <label>Nick name</label>
-                        <input type="text" id="name" name="nombre" required="" placeholder="Nick name" />
+                        <label>Raza</label>
+                        <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
 
                         <label>Fecha</label>
                         <input type="date" name="fecha" id="fecha" required="" placeholder="Fecha" />
+
+                        <label for="numtarjeta">Hora</label>
+                        <input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+
+                            <label>Amo</label>
+                            <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
                     
-                                <button type="submit" name="enviar" id="boton">Contactar</button>
+                                <button type="submit" name="enviar" id="boton">VALIDAR CITA</button>
                             </form>
                         </div>
                     </div>
@@ -102,7 +110,7 @@
                     <footer  id="piedepagina">
                     <p>Contactenos</p>
                     <p>Linea gratuita 018000-00001</p>
-                    <p>Correo : <a herf="MundoGamer@example.com">preguntas@MundoGamer.com</a>
+                    <p>Correo : <a herf="mailto:hege@example.com">preguntas@caninosyfelinos.com</a>
                 </footer>
             </div>
         </driv>
@@ -123,9 +131,3 @@
 
 
 
-
-
-
-
-
-                        
