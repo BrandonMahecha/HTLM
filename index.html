@@ -30,6 +30,7 @@
 
                 </header>
             </div>
+
             <div class="col-5">
                 <img src="./img/VETERINARIA/logo.png" alt="catdog" id="imgCatdog" width="256px" height="256px">
             </div>
@@ -101,20 +102,27 @@
                 <form id="form" method="post" action="pagina-destino.php">
 
                     <div class="row" id="formTitulo">
-                        <h1>Solicitar cita medica</h1><br>
+                        <h6>Solicitar cita medica</h6><br>
                     </div>
+
                     <label>Mascota</label>
                     <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
+
                     <label for="numtarjeta">Edad</label>
                     <input id="numtarjeta" name="numtarjeta" type="number" placeholder="en meses" required>
+
                     <label>Raza</label>
                     <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
+
                     <label>Fecha</label>
                     <input type="date" name="fecha" id="fecha" required="" placeholder="Fecha" />
+
                     <label for="numtarjeta">Hora</label>
                     <input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+
                     <label>Amo</label>
                     <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
+
                     <button type="submit" name="enviar" id="boton">Validar cita</button>
                 </form>
             </div>
